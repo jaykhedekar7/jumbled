@@ -1,0 +1,97 @@
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-item{
+    margin-right: 5px;
+}
+
+.jumbotron{
+    height: auto;
+}
+
+
+.showcase {
+    width: auto;
+    height: 300px;
+    margin-left: 20%;
+    margin-bottom: 25px;
+}
+
+.sizing {
+    height: 500px!important;
+    width: 100%!important;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.padd {
+    padding-bottom: 28px;
+}
+
+.btn {
+    background-color: #343a40 !important;
+    color: white;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.card-footer {
+    background-color: #343a40;
+    color: #bdc2c7; 
+}
+
+
+.right {
+    float: right;
+}
+
+.productimg {
+    width: 80%;
+    height: 400px;
+    /* margin-top: 10%; */
+    
+}
+
+.content {
+    /* margin-top: 3%; */
+    /* border-left: 3px solid #343a40; */
+    height: 400px;
+    text-align: justify;
+}
+
+
+.featureimg {
+    height: 450px;
+    width: auto;
+}
+
+.contentimg {
+    height: 400px;
+    margin-bottom: 10%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#product{
+    margin-bottom: 10%;
+}
+
+.des{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+}

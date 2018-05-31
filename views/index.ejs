@@ -1,0 +1,57 @@
+<% include partials/header %>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Jumbled</h1>
+            <p class="lead">Get yourself the best posters from around the world created by people like you. You can upload yours too!</p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg" href="/index/addposter" role="button">Add Poster</a>
+         </div>
+    </div>
+
+    <div class="container">
+        <h2>Fresh Picks</h2>
+        <hr class="style2">
+    </div>
+
+
+    <div class="container">
+       
+        <div class="row" style="margin-bottom: 15px!important;">
+
+        <% posters.forEach(function(poster){%>
+          
+            <div class="col-lg-4 col-md-6 col-sm-12"  style="margin-top: 25px!important;">
+                <div class="thumbnail">
+                    <img class="sizing" src="<%= poster.image %>"> 
+                </div>
+                <div class="caption des" style="text-align: center;">
+                    <h3><%= poster.name %></h3>
+                    <h3>₹<%= poster.price %></h3>
+                    <p><%= poster.description %></p>
+                    <a href="/index/<%=poster._id %>" class="btn btn-primary btn-block">More</a>
+                </div>
+                
+            </div>
+            <hr>
+        <% }) %>
+     </div>    
+    
+    
+</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<% include partials/footer %>
