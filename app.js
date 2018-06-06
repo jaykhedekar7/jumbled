@@ -4,8 +4,7 @@ var bodyParser  = require("body-parser");
 var mongoose    = require("mongoose");
 
 
-// mongoose.connect("mongodb://localhost/posterwala");
-mongoose.connect("mongodb://jaykhedekar:Iitbombay2016#@ds143070.mlab.com:43070/jumble");
+mongoose.connect("mongodb://localhost/posterwala");
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
@@ -71,11 +70,6 @@ app.get("/index/:id", function(req, res){
      
     
 });
-
-
-
-
-
 
 
 
