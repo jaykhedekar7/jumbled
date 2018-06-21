@@ -3,7 +3,7 @@ var app         = express();
 var bodyParser  = require("body-parser");
 var mongoose    = require("mongoose");
 
-
+// Added a comment
 mongoose.connect("mongodb://localhost/posterwala");
 app.use(express.static("public"));
 app.set("view engine", "ejs");
